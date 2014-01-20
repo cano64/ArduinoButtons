@@ -1,0 +1,14 @@
+Buttons	KEYWORD1
+AnalogButtons	KEYWORD1
+MCP23S08Buttons	KEYWORD1
+zzzButtons	KEYWORD1
+
+
+onKeyPress	KEYWORD2
+onKeyDown	KEYWORD2
+onKeyUp	KEYWORD2
+onStateChange	KEYWORD2
+update	KEYWORD2
+check	KEYWORD2
+getState	KEYWORD2
+
