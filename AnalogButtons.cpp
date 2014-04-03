@@ -25,6 +25,8 @@ void AnalogButtons::init(uint16_t t0, uint16_t t1, uint16_t t2, uint16_t t3, uin
 }
 
 uint8_t AnalogButtons::getState() {
+  analogReference(DEFAULT);
+  delay(12);
   uint16_t a = analogRead(this->pin);
   uint8_t btn = 0b10000000;
   for (uint8_t i = 0; i < 8; i++) {

@@ -1,7 +1,7 @@
 Buttons	KEYWORD1
 AnalogButtons	KEYWORD1
 MCP23S08Buttons	KEYWORD1
-zzzButtons	KEYWORD1
+DigitalButtons	KEYWORD1
 
 
 onKeyPress	KEYWORD2

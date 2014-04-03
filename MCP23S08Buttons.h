@@ -13,7 +13,7 @@
 
 #include "Arduino.h"
 #include "Buttons.h"
-#include "SPI.h"
+#include <SPI.h>
 
 class MCP23S08Buttons: public Buttons {
 
