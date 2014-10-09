@@ -1,6 +1,6 @@
 /*
 
-*/
+
 
 
 #include "MCP23S08Buttons.h"
@@ -44,5 +44,6 @@ uint8_t MCP23S08Buttons::transfer(uint8_t addr, uint8_t reg, uint8_t data) {
 	digitalWrite(this->pinSS, HIGH);
 	return result;
 }
+*/
 
 //

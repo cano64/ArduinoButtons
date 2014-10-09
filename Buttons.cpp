@@ -9,8 +9,10 @@
 
 Buttons::Buttons() : 
   prevState(0), timeLastChange(0), timeLastKeyDown(0), timeLastKeyRepeat(0), 
-  timeDebounce(20), repeatDelay(100), repeatWait(200),
-  onKeyPress(NULL), onKeyDown(NULL), onKeyUp(NULL),  onStateChange(NULL)
+  timeDebounce(20), repeatDelay(100), repeatWait(200), timeLong(3000),
+  onKeyPress(NULL), onKeyDown(NULL), onKeyUp(NULL),  
+  onKeyLongDown(NULL), onKeyLongUp(NULL),
+  onStateChange(NULL)
 {
 
 }

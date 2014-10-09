@@ -5,7 +5,7 @@
 		MCP23S08 has internal pullups just connect one side of the button 
 		to the GPIO pin and the other side ot the button to the GND
     
-*/
+
 
 #ifndef MCP23S08Buttons_h
 #define MCP23S08Buttons_h
@@ -31,3 +31,6 @@ class MCP23S08Buttons: public Buttons {
 
 
 #endif
+
+*/
+//

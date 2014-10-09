@@ -1,8 +1,8 @@
 
-
 /*
 
 */
+
 
 #ifndef BUTTONS_H
 #define BUTTONS_H
@@ -21,11 +21,16 @@ class Buttons {
     long timeDebounce;
     long repeatDelay; //delay between two repeats in ms
     long repeatWait; //delay between first key press and start repeating in ms
+    long timeLong; //how long to wait to generate Long* event
     
     //event handlers
     void (*onKeyPress)(uint8_t);
     void (*onKeyDown)(uint8_t);
     void (*onKeyUp)(uint8_t);
+    void (*onKeyLongDown)(uint8_t);
+    void (*onKeyLongUp)(uint8_t);
+    
+    
     void (*onStateChange)(uint8_t);
     
     

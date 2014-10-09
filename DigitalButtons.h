@@ -18,12 +18,14 @@
 #include "Arduino.h"
 #include "Buttons.h"
 
+#define PIN_NOT_DEFINED 255
+
 class DigitalButtons: public Buttons {
 
   public:
     uint8_t pins[8];
     
-    DigitalButtons(uint8_t p0, uint8_t p1); // constructor for 2 buttons
+    DigitalButtons(uint8_t p0, uint8_t p1 = PIN_NOT_DEFINED, uint8_t p2 = PIN_NOT_DEFINED, uint8_t p3 = PIN_NOT_DEFINED, uint8_t p4 = PIN_NOT_DEFINED, uint8_t p5 = PIN_NOT_DEFINED, uint8_t p6 = PIN_NOT_DEFINED, uint8_t p7 = PIN_NOT_DEFINED); 
 
     void init(uint8_t p0, uint8_t p1, uint8_t p2, uint8_t p3, uint8_t p4, uint8_t p5, uint8_t p6, uint8_t p7);
     uint8_t getState();
