@@ -7,6 +7,8 @@ DigitalButtons	KEYWORD1
 onKeyPress	KEYWORD2
 onKeyDown	KEYWORD2
 onKeyUp	KEYWORD2
+onKeyLongDown KEYWORD2
+onKeyLongUp KEYWORD2
 onStateChange	KEYWORD2
 update	KEYWORD2
 check	KEYWORD2

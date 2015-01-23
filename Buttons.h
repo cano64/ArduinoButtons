@@ -21,7 +21,7 @@ class Buttons {
     long timeDebounce;
     long repeatDelay; //delay between two repeats in ms
     long repeatWait; //delay between first key press and start repeating in ms
-    long timeLong; //how long to wait to generate Long* event
+    long timeLongWait; //how long to wait to generate Long* event
     
     //event handlers
     void (*onKeyPress)(uint8_t);
@@ -41,7 +41,7 @@ class Buttons {
     virtual uint8_t getState();
     
   private:
-  
+    uint8_t longFired;
 }; //end of class Buttons
 
 
