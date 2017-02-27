@@ -1,16 +1,38 @@
-Buttons	KEYWORD1
-AnalogButtons	KEYWORD1
-MCP23S08Buttons	KEYWORD1
-DigitalButtons	KEYWORD1
+#######################################
+# Syntax Coloring Map For LedControl
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
 
 
-onKeyPress	KEYWORD2
-onKeyDown	KEYWORD2
-onKeyUp	KEYWORD2
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Buttons	KEYWORD2
+
+timeLastChange KEYWORD2
+timeLastKeyDown KEYWORD2
+timeLastKeyRepeat KEYWORD2
+timeDebounce KEYWORD2
+repeatDelay KEYWORD2
+repeatWait KEYWORD2
+timeLongWait KEYWORD2
+
+onKeyPress KEYWORD2
+onKeyDown KEYWORD2
+onKeyUp KEYWORD2
 onKeyLongDown KEYWORD2
 onKeyLongUp KEYWORD2
-onStateChange	KEYWORD2
-update	KEYWORD2
-check	KEYWORD2
-getState	KEYWORD2
+onStateChange KEYWORD2
+update KEYWORD2
+check KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
 
