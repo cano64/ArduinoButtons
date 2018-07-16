@@ -14,22 +14,22 @@
 
 Buttons	KEYWORD2
 
-timeLastChange KEYWORD2
-timeLastKeyDown KEYWORD2
-timeLastKeyRepeat KEYWORD2
-timeDebounce KEYWORD2
-repeatDelay KEYWORD2
-repeatWait KEYWORD2
-timeLongWait KEYWORD2
+timeLastChange	KEYWORD2
+timeLastKeyDown	KEYWORD2
+timeLastKeyRepeat	KEYWORD2
+timeDebounce	KEYWORD2
+repeatDelay	KEYWORD2
+repeatWait	KEYWORD2
+timeLongWait	KEYWORD2
 
-onKeyPress KEYWORD2
-onKeyDown KEYWORD2
-onKeyUp KEYWORD2
-onKeyLongDown KEYWORD2
-onKeyLongUp KEYWORD2
-onStateChange KEYWORD2
-update KEYWORD2
-check KEYWORD2
+onKeyPress	KEYWORD2
+onKeyDown	KEYWORD2
+onKeyUp	KEYWORD2
+onKeyLongDown	KEYWORD2
+onKeyLongUp	KEYWORD2
+onStateChange	KEYWORD2
+update	KEYWORD2
+check	KEYWORD2
 
 
 #######################################
